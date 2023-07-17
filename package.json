@@ -11,16 +11,19 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@expo/next-adapter": "~5.0.0",
+    "@tauri-apps/cli": "^1.4.0",
     "@types/react": "~18.0.27",
     "@types/react-native": "^0.72.2",
     "@types/react-native-web": "npm:@types/react-native"
   },
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "next dev",
-    "build": "next build"
+    "run:android":"expo start --android",
+    "run:ios":"expo start --ios",
+    "run:mobile": "expo start",
+    "run:web":"next dev",
+    "run:desktop":"yarn tauri dev",
+    "build:web": "next build && next export",
+    "build:desktop":"yarn tauri build"
   },
   "name": "lary-scaffold-ssr",
   "version": "1.0.0",
