@@ -7,6 +7,7 @@ const nextConfig = withExpo({
   transpilePackages: [
     "react-native",
     "expo",
+    "@_ricecooker/lary",
     // Add more React Native / Expo packages here...
   ],
   experimental: {
