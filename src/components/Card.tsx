@@ -3,15 +3,15 @@ import { Text as NativeText } from "react-native";
 import { Image as NativeImage } from "react-native";
 import { TouchableOpacity as PaperButton } from "react-native";
 
-const Text = laryfy<React.ComponentProps<typeof NativeText>>(NativeText as React.ComponentType<unknown>);
-const Image = laryfy<React.ComponentProps<typeof NativeImage>>(NativeImage as React.ComponentType<unknown>);
-const Button = laryfy<React.ComponentProps<typeof PaperButton>>(PaperButton as React.ComponentType<unknown>);
+const Text = laryfy<typeof NativeText>(NativeText);
+const Image = laryfy<typeof NativeImage>(NativeImage);
+const Button = laryfy<typeof PaperButton>(PaperButton);
 
 const Card = (): JSX.Element => {
   const {isSm} = useBreakPoints()
   return (
     <Container row justifyCenter>
-        <Element m1 r4 bgWarning style={{maxWidth: 500}} widthFull>
+        <Element m1 r4 bgWarning maxWidth={500} widthFull>
             <Container column widthFull>
                 <Image
                     height={400}

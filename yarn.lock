@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@0no-co/graphql.web/-/graphql.web-1.0.4.tgz#9606eb651955499525d068ce0ad8bea596286ce2"
   integrity sha512-W3ezhHGfO0MS1PtGloaTpg0PbaT8aZSmmaerL7idtU5F7oCI+uu25k+MsMS31BVFlp4aMkHSrNRxiD72IlK8TA==
 
-"@_ricecooker/lary@^0.3.0-0":
-  version "0.3.0-0"
-  resolved "https://registry.yarnpkg.com/@_ricecooker/lary/-/lary-0.3.0-0.tgz#a8d3495aa7c1d7ca458121eeaa782b15a2a2f9e5"
-  integrity sha512-/uYM1QTDAEvqjIY4MKqknqB9bHFRFIgdCgLjhnGs9//h4pRy06Rln2T89MXirFNi2JlXFsjfUHbAbCqkPJEswg==
+"@_ricecooker/lary@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@_ricecooker/lary/-/lary-0.5.1.tgz#a06a7a82cc1e000db965c4d117f28b9657d3b77e"
+  integrity sha512-3QSkbW9iU5no8HuaW379Cuuxd7VwOn1vMisgfhyYkGDEC37S/4CxSshY2+nIfmXfA4cyklvEeix85G/qrX7RZw==
   dependencies:
     "@rollup/plugin-babel" "^6.0.3"
     "@rollup/plugin-commonjs" "^24.0.1"

@@ -1,25 +1,27 @@
-# [Next.js Example](https://www.nextjs.org/)
+# Lary Scaffold SSR
 
-<p>
-  <!-- Web -->
-  <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-</p>
+This repository contains a TypeScript scaffold project for server-side rendering (SSR) using <a target="_blank" href="https://github.com/RiceCooker-dev/Lary/tree/master">Lary</a> library.
 
-This demo shows you how to setup your Next.js website to use packages from the Expo SDK like Camera, Gestures, Permissions, etc... Refer to the [Next adapter docs](https://github.com/expo/expo-cli/tree/main/packages/next-adapter) to learn how to add more React Native packages to your Next.js project.
+## Installation
 
-### 🏁 New Commands
-
-When targeting web, you'll need to use the Next.js CLI instead of Expo CLI:
-
-- **Starting web**
-
-  - 🚫 `yarn expo`
-  - ✅ `yarn next`
-
-- **Building web**
-  - 🚫 `yarn expo export:web`
-  - ✅ `yarn next build`
-
-### 👀 More Info
-
-- [Next Adapter repo](https://github.com/expo/expo-cli/tree/main/packages/next-adapter)
+```bash
+git clone https://github.com/RiceCooker-dev/lary-scaffold-ssr.git
+cd lary-scaffold-ssr
+yarn #or npm i
+```
+## Commands
+### Run
+```bash
+yarn run:web            #run web
+yarn run:desktop        #run desktop
+yarn run:mobile         #run android & ios
+yarn run:android        #run android
+yarn run:ios            #run ios
+```
+### Build
+```bash
+yarn build:web          #generate a web build
+yarn build:desktop      #generate a desktop build
+yarn build:android      #generate an android build
+yarn build:ios          #generate an ios build
+```
