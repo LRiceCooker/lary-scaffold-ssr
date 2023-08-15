@@ -17,10 +17,12 @@ yarn run:desktop        #run desktop
 yarn run:mobile         #run android & ios
 yarn run:android        #run android
 yarn run:ios            #run ios
+yarn run:prod            #run web production build
 ```
 ### Build
 ```bash
 yarn build:web          #generate a web build
+yarn build:ssr          #build web produciton
 yarn build:desktop      #generate a desktop build
 yarn build:android      #generate an android build
 yarn build:ios          #generate an ios build

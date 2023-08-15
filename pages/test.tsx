@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../src/components/Card";
+import Text from "../src/components/base/Text";
 
 export default function App() {
   return (
     <>
-      <Card/>
+      <Text>coucou bandes nouilles</Text>
     </>
   );
 }

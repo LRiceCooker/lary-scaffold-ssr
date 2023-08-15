@@ -27,7 +27,9 @@
     "run:mobile": "expo start",
     "run:web": "next dev",
     "run:desktop": "yarn tauri dev",
+    "run:prod": "yarn next start",
     "build:web": "next build && next export",
+    "build:ssr":"next build",
     "build:desktop": "yarn tauri build"
   },
   "name": "lary-scaffold-ssr",
