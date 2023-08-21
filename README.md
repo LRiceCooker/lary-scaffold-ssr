@@ -29,5 +29,5 @@ yarn build:ios          #generate an ios build
 ```
 ### Docs
 ```bash
-yarn storybook
+yarn storybook          #display components documentation
 ```
